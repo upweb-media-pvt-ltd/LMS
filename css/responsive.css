@@ -6,7 +6,9 @@
 } 
 }
 @media (max-width:991px) {
-    
+    #carousel-example-generic{
+    min-height: 360px;
+}
 }
 @media (max-width:767px) {
     
