@@ -1,38 +1,60 @@
 @media (max-width:1199px) {
-   .navbar-nav>li {
-     float: none; 
-    text-align: center;
-    display: inline-block;
-} 
+    .navbar-nav>li {
+        float: none;
+        text-align: center;
+        display: inline-block;
+    }
 }
 @media (max-width:991px) {
     #carousel-example-generic{
-    min-height: 360px;
-}
+        min-height: 360px;
+    }
 }
 @media (max-width:767px) {
-    
+
 }
 @media (max-width:575px) {
-    
+
 }
 @media (max-width:479px) {
-    
+
 }
 @media (min-width:480px) {
-    
+
 }
 @media (min-width:576px) {
-    
+
 }
 @media (min-width:768px) {
-    
+
 }
 @media (min-width:992px) {
-    
+    .what-we-do .plus-decorator::before, .what-we-do .plus-decorator::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 80%;
+        height: 1px;
+        -webkit-background-image: linear-gradient(rgba(0, 0, 0, 0.3), #000, rgba(0, 0, 0, 0.3));
+        -moz-background-image: linear-gradient(rgba(0, 0, 0, 0.3), #000, rgba(0, 0, 0, 0.3));
+        -ms-background-image: linear-gradient(rgba(0, 0, 0, 0.3), #000, rgba(0, 0, 0, 0.3));
+        -o-background-image: linear-gradient(rgba(0, 0, 0, 0.3), #000, rgba(0, 0, 0, 0.3));
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), #000, rgba(0, 0, 0, 0.3));
+    }
+    .what-we-do .plus-decorator::after {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
 }
 @media (min-width:1200px) {
-    
+
 }
 
 
