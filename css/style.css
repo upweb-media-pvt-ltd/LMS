@@ -220,15 +220,29 @@ img{
 .about h2:before{
     content: '';
     border-radius: 10px;
-    width: 85px;
-    height: 5px;
+    width: 100px;
+    height: 4px;
     background-color: #022a68;
     position: absolute;
-    bottom: 20px;
+    bottom: 11px;
     right: 0;
     left: 0;
     margin-left: auto;
     margin-right: auto;
+}
+.about h2:after{
+    content: '';
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #022a68;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #fff;
 }
 .about p{
   font-family: 'Montserrat', sans-serif;  
@@ -236,6 +250,7 @@ img{
   color:#000;
   font-weight:400; 
   line-height: 34px;
+  margin-top: 20px;
 }
 .about .wrap-btn{
    text-align: center; 
