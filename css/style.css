@@ -313,8 +313,8 @@
     font-weight: 500;
     line-height: 22px;
 }
-.portfolio-item{   
-    margin-bottom: 40px;   
+.portfolio-item{
+    margin-bottom: 40px;
 }
 .what-we-do .plus-decorator {
     position: absolute;
@@ -341,14 +341,14 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: 0px;
-    border-width: 0px; 
+    border-width: 0px;
 }
 .award-sec .bx-wrapper .bx-prev {
-    left: -45px;    
+    left: -45px;
     background: url('../images/left-arrow.png') no-repeat;
 }
 .award-sec .bx-wrapper .bx-next {
-    right: -65px;    
+    right: -65px;
     background: url('../images/right-arrow.png') no-repeat;
 }
 .award-sec .bxslider h3, .award-sec .bxslider p{
@@ -368,6 +368,10 @@
 .bx-wrapper .bx-controls-direction a {
     top: 40%;
 }
+.award-sec .bx-wrapper { /* Only for responsive center alignment. Don't mess with this.'*/
+    margin-left: auto;
+    margin-right: auto;
+}
 /*Video Audio Section*/
 .video-audio-sec{
     width:100%;
@@ -383,7 +387,7 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 .video-audio-sec p{
     color:#292929;
@@ -442,7 +446,7 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: 0px;
-    border-width: 0px; 
+    border-width: 0px;
 }
 .testimonial-sec .bx-wrapper h3{
     font-size: 24px;
@@ -464,7 +468,7 @@
     margin-top:30px;
 }
 .testimonial-sec .bx-wrapper .bx-prev {
-    left: -45px;  
+    left: -45px;
     width: 23px;
     height: 43px;
     background: url('../images/left-testi-arrow.png') no-repeat;
@@ -472,7 +476,7 @@
 .testimonial-sec .bx-wrapper .bx-next {
     width: 23px;
     height: 43px;
-    right: -65px;    
+    right: -65px;
     background: url('../images/right-testi-arrow.png') no-repeat;
 }
 .testimonial-sec .bx-wrapper{
@@ -567,7 +571,7 @@
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-        text-decoration: inherit;
+    text-decoration: inherit;
     color: #fff;
     font-size: 8px;
     padding-right: 0.5em;
@@ -591,8 +595,8 @@
     color:#0023c9;
 }
 .footer-sec .footer-forth-sec ul li{
-   list-style-type: none; 
-   margin-bottom: 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
 }
 /*Bottom Footer Section*/
 .bottom-footer{

@@ -179,20 +179,20 @@
         </section>
         <!-- start Award section -->
         <section class="award-sec">
-            <div class="container">                                 
-                <div class="bxslider">                       
-                    <div><img src="images/Awards1.jpg" alt=""/><h3>Best New Agent</h3><p>1998</p></div>
-                    <div><img src="images/Awards2.jpg" alt=""/><h3>Superior Customer Service</h3><p>1998</p></div>
-                    <div><img src="images/Awards4.jpg" alt=""/><h3>Superior Customer Service</h3><p>1999</p></div>  
-                    <div><img src="images/Awards4.jpg" alt=""/><h3>Superior Customer Service</h3><p>2000</p></div>
-                    <div><img src="images/Awards4.jpg" alt=""/><h3>Superior Customer Service</h3><p>1999</p></div> 
-                </div>                                                
+            <div class="container">
+                <div class="bxslider">
+                    <div class="bx-items"><img src="images/Awards1.jpg" alt=""/><h3>Best New Agent</h3><p>1998</p></div>
+                    <div class="bx-items"><img src="images/Awards2.jpg" alt=""/><h3>Superior Customer Service</h3><p>1998</p></div>
+                    <div class="bx-items"><img src="images/Awards4.jpg" alt=""/><h3>Superior Customer Service</h3><p>1999</p></div>
+                    <div class="bx-items"><img src="images/Awards4.jpg" alt=""/><h3>Superior Customer Service</h3><p>2000</p></div>
+                    <div class="bx-items"><img src="images/Awards4.jpg" alt=""/><h3>Superior Customer Service</h3><p>1999</p></div>
+                </div>
             </div>
         </section>
         <!-- start Video Audio section -->
         <section class="video-audio-sec">
-            <div class="container">        
-                <div class="row">           
+            <div class="container">
+                <div class="row">
                     <div class="col-lg-7 col-sm-7">
                         <h3>Making Moving Easy Since 1997</h3>
                         <p>We are South Carolina! If you are relocating to or from Myrtle Beach, Hilton Head, Charleston, Rock Hill, Greenville, Spartanburg, or Columbia; Lange Moving Systems can assist you. We are the home of the South Carolina Gamecocks and the Clemson Tigers. From the beautiful coastline of Pawley’s Island (where they make those great hammocks), to the upstate’s Blue Ridge Mountain sky, growing cities, small towns, great year round climate, a golfers’ paradise, South Carolina has it all.</p>
@@ -211,8 +211,8 @@
         <!-- start Testimonial section -->
         <section class="testimonial-sec">
             <div class="container">
-                <h2 class="underline sec-title">Customer Reviews</h2>                   
-                <div class="bxslider2">                       
+                <h2 class="underline sec-title">Customer Reviews</h2>
+                <div class="bxslider2">
                     <div>
                         <h3>Move From SC To NH</h3>
                         <ul>
@@ -236,14 +236,14 @@
                         </ul>
                         <i>Apr 13, 2017 by Al Morrison</i>
                         <p>Both the packing crew and the unpacking crew were great. Professional and polite.</p>
-                    </div>                        
-                </div>                   
+                    </div>
+                </div>
             </div>
         </section>
         <!-- start client-list section -->
         <div class="client-list">
             <div class="container">
-                <ul class="list-inline text-center">                   
+                <ul class="list-inline text-center">
                     <li><img src="images/logo-greater.png" alt=""/></li>
                     <li><img src="images/logo-lpga.png" alt=""/></li>
                     <li><img src="images/logo-bbb.png" alt=""/></li>
@@ -289,29 +289,29 @@
                                     <li><a href="#">Links</a></li>
                                     <li><a href="#">Employment</a></li>
                                     <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Site Map</a></li>                           
+                                    <li><a href="#">Site Map</a></li>
                                 </ul>
                             </div>
-                        </div>  
+                        </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="widget footer-forth-sec">
                                 <h3 title="widget-title">Connect With Us</h3>
                                 <ul>
-                                    <li><a href="#"><img src="images/free-quote.jpg" alt=""/></a></li>                           
-                                    <li><a href="#"><img src="images/email-us.jpg" alt=""/></a></li>                          
-                                    <li><a href="#"><img src="images/fb-icon.jpg" alt=""/></a></li>                            
-                                    <li><a href="#"><img src="images/rotery-icon.jpg" alt=""/></a></li>                           
+                                    <li><a href="#"><img src="images/free-quote.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="images/email-us.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="images/fb-icon.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="images/rotery-icon.jpg" alt=""/></a></li>
 
                                 </ul>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
             <div class="bottom-footer">
                 <div class="container">
                     <p>Copyright 2019. Lange Moving Systems. All Right Reserved.</p>
-                </div>                                     
+                </div>
             </div>
         </footer>
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
@@ -320,21 +320,23 @@
         <script>
 
             $(function () {
-                var awards, width = $(window).width();
+                var slideMargin, slideWidth, maxSlides, width = $(window).width();
                 if (width < 576) {
-                    awards = 1;
-                } else if(width >= 576 && width < 768) {
-                    awards = 2;
-                } else if(width >= 768 && width < 992) {
-                    awards = 3;
+                    slideMargin = 30, slideWidth = 260, maxSlides = 1;
+                } else if (width >= 576 && width < 768) {
+                    slideMargin = 30, slideWidth = 260, maxSlides = 2;
+                } else if (width >= 768 && width < 992) {
+                    slideMargin = 30, slideWidth = 200, maxSlides = 3;
+                } else if (width >= 992 && width < 1200) {
+                    slideMargin = 15, slideWidth = 200, maxSlides = 4;
                 } else {
-                    awards = 4;
+                    slideMargin = 30, slideWidth = 260, maxSlides = 4;
                 }
                 $('.bxslider').bxSlider({
                     auto: true,
-                    slideMargin: 30,
-                    slideWidth: 260,
-                    maxSlides: awards,
+                    slideMargin: slideMargin,
+                    slideWidth: slideWidth,
+                    maxSlides: maxSlides,
                     minSlides: 1,
                     responsive: true
 
