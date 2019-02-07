@@ -9,6 +9,32 @@
     #carousel-example-generic{
         min-height: 360px;
     }
+    .top-header .top-header-middle .logo{
+        width: 40%;
+    }
+    .top-header .top-header-bottom p {
+        text-align: center;
+    }
+    .top-header .top-header-bottom img {   
+        width: 25%; 
+        margin: 0 auto;
+        float: none;
+    }
+    .top-header .top-header-left .col-lg-12.col-md-12:first-child {
+        margin-bottom: 0px;
+    }
+    .top-header .top-header-left {
+        padding: 0;
+    }
+    .top-header {
+        padding: 10px 0 15px;
+    }
+    .top-header .top-header-left .col-lg-12.col-md-12:first-child {  
+        margin-top: 0px;
+    }
+    .text-sm-center{
+        text-align: center;
+    }
 }
 @media (max-width:767px) {
 
@@ -52,6 +78,9 @@
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
+    }
+    .banner-form {
+    position: absolute;
     }
 }
 @media (min-width:1200px) {

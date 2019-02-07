@@ -77,15 +77,12 @@
 }
 /*Form Section*/
 .banner-form{
-    float:left;
-    width:100%;
-    position:absolute;
     top: 0;
     bottom: 0;
     height: max-content;
     margin-top: auto;
     margin-bottom: auto;
-
+    width: 100%;
 }
 .banner-form form{
     background:rgba(0,0,0,0.5);
