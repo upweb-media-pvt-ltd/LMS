@@ -51,6 +51,9 @@
     width:48%;
     height:auto;
 }
+.top-header-left .text-xs-center:first-child{
+    margin-bottom: 30px;
+}
 /*Menu Section*/
 .menu-sec {
     background-color: #ffd200;
