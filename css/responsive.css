@@ -1,18 +1,16 @@
-@media (max-width:1199px) {
+@media screen and (max-width:1199px) {
     .navbar-nav>li {
         float: none;
         text-align: center;
         display: inline-block;
     }
 }
-@media (max-width:991px) {
+@media screen and (max-width:991px) {
     #carousel-example-generic{
-        min-height: 360px;
+        margin-bottom: 40px;
     }
     .top-header .top-header-middle .logo{
         width: 60%;
-    }
-    .top-header .top-header-middle .logo {
         float: left;
     }
     .top-header .top-header-bottom img {
@@ -47,34 +45,144 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .footer-sec .footer-forth-sec ul li {
-    width: 46%;
-    display: inline-block;
+        width: 46%;
+        display: inline-block;
+    }
+    .video-audio-sec .col-lg-7.col-md-7.col-sm-12:first-child{
+        margin-bottom: 30px;
+    }
 }
-.video-audio-sec .col-lg-7.col-md-7.col-sm-12:first-child{
-    margin-bottom: 30px;
-}
-}
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
     .text-xs-center{
         text-align: center;
     }
+    .footer-sec .footer-forth-sec ul li {
+        width: 100%;
+    }
+    .footer-sec {
+        padding: 25px 0;
+    }
+    .video-audio-sec {
+        padding: 40px 0;
+    }
+    .top-header-left .col-sm-6.text-xs-center:last-child {
+        text-align: center;
+    }
+    .top-header .top-header-middle .logo {
+        float: none;
+        width: 26%;
+    }
+    .top-header .top-header-bottom p {  
+        text-align: center;
+    }
+    .top-header .top-header-bottom img {
+        width: 14%;
+        margin: 0 auto;
+        float: none;
+    }
 }
-@media (max-width:575px) {
+@media screen and (max-width:575px) {
+    .banner-form form ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sec-title {    
+        font-size: 25px;
+    }
+    .about p { 
+        font-size: 16px;    
+        line-height: 28px;  
+    }
+    .wrap-btn a {
+        font-size: 14px;
+    }
+    .what-we-do .card-title a {   
+        font-size: 22px;
+    }
+    .col-lg-6.col-sm-6.portfolio-item:first-child{
+        margin-top:20px;
+    }
+    .what-we-do .wrap-btn {
+        text-align: center;
+        margin-top: 0;
+    }
+    .testimonial-sec {
+        padding: 50px 0;
+    }
+    .top-header .top-header-left ul {
+        margin-bottom: 5px;
+    }
+    .top-header .top-header-middle .logo {
+        width: 30%;
+    }
+}
+@media screen and (max-width:479px) {
+    .top-header .top-header-middle .logo {
+        width: 35%;
+    }
+    .top-header .top-header-bottom img {
+        width: 20%;
+    }
+    .banner-form form ul {
+        grid-template-columns: 100%;
+    }
+    .banner-form h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    #carousel-example-generic {
+        margin-bottom: 20px;
+    }
+    .banner-form form {
+        padding: 30px;
+    }
+    .about {
+    padding: 30px 0;
+}
+.sec-title {
+    font-size: 20px;
+}
+.about p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.wrap-btn a {
+    font-size: 13px;
+    padding: 10px 20px;
+}
+.wrap-btn {
+    margin-top: 25px;
+}
+.what-we-do {
+    padding: 30px 0;
+}
+.video-audio-sec h3 {
+    font-size: 24px;
+}
+.testimonial-sec .bx-wrapper h3 {
+    font-size: 19px;
+}
+.testimonial-sec .bx-wrapper p {  
+    font-size: 13px;  
+    margin-top: 18px;
+}
+.testimonial-sec {
+    padding: 30px 0;
+}
+.testimonial-sec .bx-wrapper i {
+    font-size: 13px;
+}
+.testimonial-sec .bx-wrapper .bx-prev, .testimonial-sec .bx-wrapper .bx-next, .award-sec .bx-wrapper .bx-next, .award-sec .bx-wrapper .bx-prev {
+    display: none;
+}
+}
+@media screen and (min-width:480px) {
 
 }
-@media (max-width:479px) {
+@media screen and (min-width:576px) {
 
 }
-@media (min-width:480px) {
-
-}
-@media (min-width:576px) {
-
-}
-@media (min-width:768px) {
-
-}
-@media (min-width:992px) {
+@media screen and (min-width:768px) {
     .what-we-do .plus-decorator::before, .what-we-do .plus-decorator::after {
         content: '';
         position: absolute;
@@ -99,11 +207,17 @@
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
     }
+    .testimonial-sec{
+        background-image: url(../images/Quote_background_transparent.png);
+    }
+}
+@media screen and (min-width:992px) {
+
     .banner-form {
         position: absolute;
     }
 }
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
 
 }
 

@@ -31,9 +31,14 @@
     margin-bottom:30px;
     margin-top:5px;
 }
-.top-header .top-header-middle .logo{
-    width: 95%;
+.top-header .top-header-middle .logo {
     margin: 0 auto;
+    text-align: center;
+}
+.top-header .top-header-middle .logo img{
+    width: 340px;
+    margin: 0 auto;
+    display: block;
 }
 .top-header .top-header-bottom img{
     float:right;
@@ -196,7 +201,7 @@
     float:left;
     height:auto;
     background: #fff;
-    padding:45px;
+    padding:45px 0;
 }
 .sec-title{
     color:#022a68;
@@ -351,7 +356,7 @@
     background: url('../images/left-arrow.png') no-repeat;
 }
 .award-sec .bx-wrapper .bx-next {
-    right: -65px;
+    right: -45px;
     background: url('../images/right-arrow.png') no-repeat;
 }
 .award-sec .bxslider h3, .award-sec .bxslider p{
@@ -375,6 +380,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+.award-sec .bx-wrapper .bx-controls-direction a {
+        width: 18px;
+    }
 /*Video Audio Section*/
 .video-audio-sec{
     width:100%;
@@ -428,7 +436,7 @@
     float:left;
     background: #f2fafa;
     padding: 70px 0;
-    background-image: url(../images/Quote_background_transparent.png);
+    
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -479,7 +487,7 @@
 .testimonial-sec .bx-wrapper .bx-next {
     width: 23px;
     height: 43px;
-    right: -65px;
+    right: -45px;
     background: url('../images/right-testi-arrow.png') no-repeat;
 }
 .testimonial-sec .bx-wrapper{
